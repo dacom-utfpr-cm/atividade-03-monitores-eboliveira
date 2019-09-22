@@ -20,7 +20,7 @@
   </component>
   <component name="ProjectId" id="1R9UPre0XgaI7rQ7Sn1HfOVfLWQ" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -28,12 +28,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eduardo Barbosa\Documents\Concorrente\atividade-03-monitores-eboliveira\3\src" />
       <recent name="C:\Users\Eduardo Barbosa\Documents\Concorrente\atividade-03-monitores-eboliveira\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eduardo Barbosa\Documents\Concorrente\atividade-03-monitores-eboliveira\2" />
       <recent name="C:\Users\Eduardo Barbosa\IdeaProjects\atividade-03-monitores-eboliveira\1\src" />
     </key>
   </component>
@@ -49,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.2">
+  <component name="RunManager" selected="Application.3">
     <configuration name="1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="1" />
@@ -64,12 +66,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="3" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.1" />
       <item itemvalue="Application.2" />
+      <item itemvalue="Application.3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.3" />
         <item itemvalue="Application.2" />
         <item itemvalue="Application.1" />
       </list>
