@@ -20,7 +20,7 @@
   </component>
   <component name="ProjectId" id="1R9UPre0XgaI7rQ7Sn1HfOVfLWQ" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/3/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/4/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -28,6 +28,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eduardo Barbosa\Documents\Concorrente\atividade-03-monitores-eboliveira\4\src" />
       <recent name="C:\Users\Eduardo Barbosa\Documents\Concorrente\atividade-03-monitores-eboliveira\3\src" />
       <recent name="C:\Users\Eduardo Barbosa\Documents\Concorrente\atividade-03-monitores-eboliveira\src" />
     </key>
@@ -51,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.3">
+  <component name="RunManager" selected="Application.4">
     <configuration name="1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="1" />
@@ -73,13 +74,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="4" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.1" />
       <item itemvalue="Application.2" />
       <item itemvalue="Application.3" />
+      <item itemvalue="Application.4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.4" />
         <item itemvalue="Application.3" />
         <item itemvalue="Application.2" />
         <item itemvalue="Application.1" />
