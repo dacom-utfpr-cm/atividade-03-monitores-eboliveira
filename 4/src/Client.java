@@ -2,13 +2,19 @@ public class Client implements Runnable {
 
     private Barber barber;
 
-    public synchronized void clientIn() throws InterruptedException {
-        barber.notify();
-        String response = barber.getSeat();
-        if(response.equals("getted")){
-            Thread.sleep(1000);
-        }else if(response.equals("wait")){
-            wait();
+    public void clientIn() throws InterruptedException {
+        synchronized (barber){
+            String response = barber.getSeat();
+            if(response.equals("getted")){
+                Thread.sleep(1000);
+                barber.clientOut();
+            }else if(response.equals("wait")){
+                wait();
+                Thread.sleep(1000);
+                barber.clientOut();
+            }else{
+                return;
+            }
         }
     }
 
@@ -18,15 +24,8 @@ public class Client implements Runnable {
 
     @Override
     public void run() {
-        synchronized (barber) {
-            try {
-                clientIn();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
         try {
-            barber.clientOut();
+            clientIn();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

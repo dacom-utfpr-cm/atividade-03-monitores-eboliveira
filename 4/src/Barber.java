@@ -28,12 +28,13 @@ public class Barber implements Runnable{
             isSleeping = true;
             wait();
         }else{
-            System.out.println("Cliente na espera");
+            System.out.println("Atendendo cliente na espera");
+            notifyAll();
             waiting-=1;
         }
     }
 
-    Barber(int maxWaiting) throws InterruptedException {
+    Barber(int maxWaiting) {
         this.maxWaiting = maxWaiting;
     }
 
